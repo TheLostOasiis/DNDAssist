@@ -15,4 +15,8 @@ class Character {
         System.out.println(name + "takes " + amount + " damage. Remaining HP: " + health);
     }
 
+    class Wizard extends Character {
+        int mana;
+    }
+
 }
